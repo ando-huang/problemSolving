@@ -18,9 +18,21 @@ def __main__():
     root2.left = root3
     root3.left = root4
 
-    got = OnlyChild.solve(root)
+    got = OnlyChild.solve(root0)
 #    expected = solutions.onlyChildCount(root)
 
     print("expected: " + str(2) + " got: " + str(got))
+
+    root0 = TreeNode(1)
+    root1 = TreeNode(3)
+    root2 = TreeNode(1)
+    root3 = TreeNode(1)
+
+    root0.right = root1
+    root1.left, root1.right = root2, root3
+
+    got = OnlyChild.solve(root0)
+
+    print("expected: " + str(1) + " got: " + str(got))
 
 __main__()
