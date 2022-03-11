@@ -1,5 +1,5 @@
 import OnlyChild
-import solutions
+#import solutions
 
 class TreeNode:
     def __init__(self, val, left=None, right=None):
@@ -19,8 +19,8 @@ def __main__():
     root3.left = root4
 
     got = OnlyChild.solve(root)
-    expected = solutions.onlyChildCount(root)
+#    expected = solutions.onlyChildCount(root)
 
-    print("expected: " + str(expected) + " got: " + str(got))
+    print("expected: " + str(2) + " got: " + str(got))
 
 __main__()

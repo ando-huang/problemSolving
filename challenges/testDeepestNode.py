@@ -1,6 +1,6 @@
 
 import DeepestNode
-import solutions
+#import solutions
 
 class TreeNode:
     def __init__(self, val, left=None, right=None):
@@ -24,7 +24,7 @@ def __main__():
     root4.right = root7
 
     got = DeepestNode.solve(root)
-    expected = solutions.getDeepestNode(root)
-    print(f"Expected "+ str(expected) + ", got " + str(got))
+#    expected = solutions.getDeepestNode(root)
+    print(f"Expected "+ str(4) + ", got " + str(got))
 
 __main__()
