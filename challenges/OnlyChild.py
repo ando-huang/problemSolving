@@ -33,10 +33,9 @@ def solve(root):
     if root is None:
         return 0
     if root.left and root.right:
-        return ??? + ???
-    elif root.left is None and root.right:
-        return ??? + ???
-    elif root.left and root.right is None:
-        return ??? + ???
+        return solve(root.left) + solve(root.left)
+
+    #TODO add missing lines
+
     else:
         return 0
