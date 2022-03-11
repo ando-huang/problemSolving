@@ -1,5 +1,5 @@
 
-import DeepestNodeBUGGY
+import DeepestNode
 import solutions
 
 class TreeNode:
@@ -23,7 +23,7 @@ def __main__():
     root3.left, root3.right = root5, root6
     root4.right = root7
 
-    got = DeepestNodeBUGGY.solve(root)
+    got = DeepestNode.solve(root)
     expected = solutions.getDeepestNode(root)
     print(f"Expected "+ str(expected) + ", got " + str(got))
 
