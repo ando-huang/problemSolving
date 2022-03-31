@@ -10,12 +10,14 @@
     <find it and paste it here>
 '''
 
+# numUniquesInArray(arr) takes in array and returns number
+# of unique elements
 def s(nums):
-    d = {}
+    d = {} # dict
     for n in nums:
         if n in d:
             continue
-        d[n] = n * 100
+        d[n] = 0
     return len(d)
 
 # TODO determine what the problem is, make an O(klogn) implementation
@@ -24,7 +26,8 @@ def sBetter(nums):
     return -1
 
 def test():
+    arr = [1, "hello", False]
     nums = [2, 2, 2, 3, 4, 5, 5, 6, 6, 7, 9]
-    print(f"Expected {7}, got {s(nums)}")
+    print(f"Expected {3}, got {s(arr)}")
 
 test()
