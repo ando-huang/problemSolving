@@ -3,7 +3,7 @@
 '''
 
 # generic implementation of max(x, y)
-def min(x, y) -> [int, bool]:
+def min(x, y):
     if x < y:
         return x
     return y
@@ -14,7 +14,7 @@ def auxMin(x, y):
 def auxMin(x, y, z):
     return None
 
-def mergeLists(ll):
+def mergeLists(l1, l2):
     i, j = 0
     l3 = []
     while i < len(l1) and j < len(l2):
@@ -41,7 +41,7 @@ class Node:
         self.right = right
 
 def leftMostLowest(root) -> int:
-    def NodeDepth(root, depth) -> [dep, val]:
+    def NodeDepth(root, depth):
         depth += 1
         if not root.left and not root.right:
             return [depth, root.val]
