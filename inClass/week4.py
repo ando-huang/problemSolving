@@ -15,10 +15,11 @@ class Trip:
 # array of [start_x: int, end_x: int, num_passengers: int]
 
 class UberDriverInfo:
-    def __init__(self, gas=0, position=0, money=0):
+    def __init__(self, gas=0, position=0, money=0, seats=1):
         self.gas = gas
         self.position = position
         self.money = money
+        self.seats = seats
 
     def getGas(self):
         return None
@@ -32,8 +33,25 @@ class UberDriverInfo:
     def travel(self, trips, capacity) -> None:
         return
 
+    
     def onlyGoingForward(self, trips, capacity: int) -> bool:
-        return False
+        currSeats = capacity
+        currPos = 0
+        maxPos = 0
+        for trip in trips:
+            if trip[1] > maxPos:
+                maxPos = trip[1]
+        
+        while currPos < maxPos:
+            for trip in trips:
+                if currPos == trip[0]:
+                    currSeats -= trip[2]
+                elif currPos == trip[1]:
+                    currSeats += trip[2]
+            if currSeats < 0:
+                return False
+            currPos += 1
+        return True
 
     def minDistance(self, trips, capacity) -> int:
         return 0
