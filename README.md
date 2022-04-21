@@ -6,7 +6,7 @@ This repo is for the Spring 2022 Cohort of Problem Solving with Tech@NYU
 
 Fork the repo to avoid permission issues.
 Follow instructions in the exercises, feel free to add further test cases as
-you see fit.
+you see fit. 
 
 # Recordings
 [Week
@@ -14,11 +14,11 @@ you see fit.
 [Week 2](https://www.youtube.com/watch?v=SYWSJwWzsuY)
 [Week 3](https://youtu.be/7LZVECWmhXA)] Apologies for the sound problems in this recording. We covered [Leftmost Deepest Tree Node](https://binarysearch.com/problems/Leftmost-Deepest-Tree-Node)  in this session.
 [Week 4](https://www.youtube.com/watch?v=JGNSW3D2_Jc)
+[Week 5](https://youtu.be/oT_j_x7YeLs)
 
 # Resources
 Do problems together : [BinarySearch](binarysearch.com)
 Popular problems explained : [NeetCode](neetcode.io)
 
-### Contact
-Andrew Huang
+### Contact Info
 ah4670@nyu.edu
