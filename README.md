@@ -14,10 +14,20 @@ you see fit.
 - [Week 3](https://youtu.be/7LZVECWmhXA) Apologies for the sound problems in this recording. We covered [Leftmost Deepest Tree Node](https://binarysearch.com/problems/Leftmost-Deepest-Tree-Node)  in this session.
 - [Week 4](https://www.youtube.com/watch?v=JGNSW3D2_Jc)
 - [Week 5](https://youtu.be/oT_j_x7YeLs)
+- [Week 6](https://youtu.be/sEb-Eb8jlMM)
 
 # Resources
 Do problems together : [BinarySearch](binarysearch.com)  
 Popular problems explained : [NeetCode](neetcode.io)
+
+# Recruiting Hubs
+Find Startups : [AngelList](https://angel.co)
+New York Startups : [Built In NYC](https://www.builtinnyc.com)
+My Personal Favorite : [RippleMatch](https://ripplematch.com)
+
+** Early stage startups often do not pay students, Angellist in particular is really bad about it. If you can afford to take an unpaid internship during the semester I say go for it but don't put more than 10 hours/week into something you aren't getting paid for. **
+
+Ripplematch is S tier when you're a senior/have some experience. I received a lot of reachouts from mid-large companies (RobinHood, TwoSigma, GEICO, Palo Alto Networks, Akuna Capital). Albeit these almost all involved Online Asssessments, but the opportunities exist.
 
 ### Contact Info
 ah4670@nyu.edu
